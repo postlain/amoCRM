@@ -1,0 +1,23 @@
+mixin block1()
+	+b.block1.background
+		+b.top_menu_container
+			+b(src='assets/images/amocrm-logo-dark.png')
+			+b.item_menu_container
+				+b.text_in_menu Решения
+					+b(src='assets/images/underline.png')
+				+b.text_in_menu Преимущества
+					+b(src='assets/images/underline.png')
+				+b.text_in_menu Функции
+					+b(src='assets/images/underline.png')
+		+b.center_container
+			+b.text_header
+				| Удобная web программа для анализа продаж,
+				br
+				| доступная в режиме online из любой точки мира!
+			+b.img_underline(src='assets/images/underline.png')
+			+b(id="button1").button
+				+b.text_in_button Попробовать бесплатно
+	+b(id="bitrix")
+		+b.img_decor_line
+	+b.img_decor_line
+		block
