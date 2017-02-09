@@ -1,3 +1,18 @@
 mixin block2()
-	+b.block2&attributes(attributes)
+	+b.block2.block2_center_content
+		+b.block2.block2_background
+			+b.img_logo(src='assets/images/text.png')
+			p.text_in_menu.text_in_menu_block2
+				| 1. Получить общую для компании стандартизированную базу контактов .
+				br
+				| 2. Эффективно осуществлять контроль качества работы отдела продаж в
+				br
+				| любой момент времени.
+				br
+				| 3. Получить статистику и аналитику эффективности работы с лидами.
+				br
+				| 4. Планировать повышение качества работы и разрабатывать стратегию
+				br
+				| развития бизнеса.
+	+b.img_decor_line.img_decor_line_Zindex
 		block

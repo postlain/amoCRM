@@ -3,6 +3,10 @@ include /../node_modules/jade-injected/jade-injected
 include ../page/page
 include ../scripts/scripts
 include ../block1/block1
+include ../block2/block2
+include ../block3/block3
+include ../block4/block4
+include ../block5/block5
 
 doctype html
 html(lang='ru')
@@ -10,4 +14,12 @@ html(lang='ru')
 	+page
 		block content
 		+scripts(['app.min.js'])
-		+block1
+		#top
+			+block1
+		#1
+			+block2
+		#2
+			+block3
+		+block4
+		+block5
+
